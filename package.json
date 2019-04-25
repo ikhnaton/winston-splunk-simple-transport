@@ -1,6 +1,6 @@
 {
   "name": "winston-splunk-simple-transport",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An extremely simple transport for Winston logging to Splunk.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,14 @@
     },
     {
       "name": "Jon W. Jones",
-      "email": "jonwj100@gmail.com"
+      "email": "jonwj100@gmail.com",
+      "url": "https://github.com/ikhnaton/winston-splunk-simple-transport"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikhnaton/winston-splunk-simple-transport.git"
+  },
   "license": "ISC",
   "dependencies": {
     "splunk-logging": "^0.10.1",
