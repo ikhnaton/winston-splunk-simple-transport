@@ -1,7 +1,7 @@
 const Transport = require('winston-transport');
 const SplunkLogger = require('splunk-logging').Logger;
 
-export class SplunkTransport extends Transport
+class SplunkTransport extends Transport
 {
 	constructor(opts)
 	{
@@ -55,3 +55,5 @@ export class SplunkTransport extends Transport
 		});
 	}
 }
+
+module.exports = SplunkTransport;

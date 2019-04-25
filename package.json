@@ -1,10 +1,9 @@
 {
   "name": "winston-splunk-simple-transport",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An extremely simple transport for Winston logging to Splunk.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributors": [
@@ -22,24 +21,5 @@
   "dependencies": {
     "splunk-logging": "^0.10.1",
     "winston-transport": "^4.3.0"
-  },
-  "devDependencies": {
-    "@babel/runtime": "^7.4.3",
-    "webpack-cli": "^3.3.1",
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-transform-runtime": "^7.4.3",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "babel-loader": "^8.0.5",
-    "uglifyjs-webpack-plugin": "^2.1.2",
-    "webpack": "^4.30.0"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-runtime"
-    ]
   }
 }
