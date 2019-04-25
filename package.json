@@ -1,6 +1,6 @@
 {
   "name": "winston-splunk-simple-transport",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An extremely simple transport for Winston logging to Splunk.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     },
     {
       "name": "Jon W. Jones",
-      "email": ""
+      "email": "jonwj100@gmail.com"
     }
   ],
   "license": "ISC",
