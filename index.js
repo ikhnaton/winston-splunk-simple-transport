@@ -50,7 +50,7 @@ class SplunkTransport extends Transport
 					console.log('error', err);
 					console.log("body", body);
 				}
-				callback(err, resp.body);
+				callback(err, resp);
 			});
 		});
 	}

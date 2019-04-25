@@ -1,6 +1,6 @@
 {
   "name": "winston-splunk-simple-transport",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An extremely simple transport for Winston logging to Splunk.",
   "main": "index.js",
   "scripts": {
